@@ -25,7 +25,7 @@ Este script monitorea las conexiones activas en puertos específicos de un servi
     ```
 
 2. Instala las dependencias necesarias:
-   
+    ```bash
     pip install -r requirements.txt
     ```
 
