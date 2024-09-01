@@ -55,7 +55,7 @@ def build_message():
     country_connections = {}
 
     # Puertos de interés
-    ports = [22, 445, 80, 443, 32400, 5001, 8181, 8443, 1194]
+    ports = [22, 445, 80, 443, 1194]
 
     for port in ports:
         ips = get_ips_by_port(port)
