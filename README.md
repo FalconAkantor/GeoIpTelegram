@@ -1,14 +1,14 @@
 # GeoIpTelegram
 
+# Monitor de Conexiones Activas en Puertos de Interés
+
+Este script monitorea las conexiones activas en puertos específicos de un servidor y envía un reporte detallado a un chat de Telegram. El reporte incluye información de las IPs conectadas, clasificadas por país, región, ciudad y proveedor de servicios de internet (ISP).
+
 ## Ejemplo de notificación
 
 Las notificaciones se envian organizando las Ips automaticamente por paises, pudiendo filtrar los puertos que quieres.
 
 ![Ejemplo de Notificación en Telegram](/imagenes/Ip.PNG)
-
-# Monitor de Conexiones Activas en Puertos de Interés
-
-Este script monitorea las conexiones activas en puertos específicos de un servidor y envía un reporte detallado a un chat de Telegram. El reporte incluye información de las IPs conectadas, clasificadas por país, región, ciudad y proveedor de servicios de internet (ISP).
 
 ## Características
 
