@@ -20,24 +20,29 @@ Este script monitorea las conexiones activas en puertos específicos de un servi
 
 1. Clona este repositorio:
     ```bash
-    git clone https://github.com/tuusuario/monitor-conexiones-puertos.git
-    cd monitor-conexiones-puertos
+    git clone https://github.com/FalconAkantor/GeoIpTelegram
+    cd GeoIpTelegram
     ```
 
 2. Instala las dependencias necesarias:
-    ```bash
+   
     pip install -r requirements.txt
     ```
 
-3. Configura las variables de entorno `TELEGRAM_TOKEN` y `TELEGRAM_CHAT_ID`:
-    ```bash
-    export TELEGRAM_TOKEN="tu_token_aqui"
-    export TELEGRAM_CHAT_ID="tu_chat_id_aqui"
-    ```
+3. Configura las variables de entorno `TELEGRAM_TOKEN` y `TELEGRAM_CHAT_ID` tienes que editar el archivo `Geo.py`:
+  ```bash
+    TOKEN = os.getenv("TELEGRAM_TOKEN")
+    CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+  ```
+Al final del archivo podemos editar los puertos que queremos que se filtren:
 
+```bash
+    ports = [22, 445, 80, 443, 1194]
+ ```
+  
 ## Uso
 
 Ejecuta el script para iniciar el monitoreo y envío de reportes a Telegram:
 
 ```bash
-python monitor_conexiones.py
+python3 geo.py
