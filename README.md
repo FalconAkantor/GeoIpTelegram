@@ -1,5 +1,9 @@
 # GeoIpTelegram
 
+## Ejemplo de notificación
+
+Las notificaciones se envian organizando las Ips automaticamente por paises, pudiendo filtrar los puertos que quieres.
+
 ![Ejemplo de Notificación en Telegram](/imagenes/Ip.PNG)
 
 # Monitor de Conexiones Activas en Puertos de Interés
